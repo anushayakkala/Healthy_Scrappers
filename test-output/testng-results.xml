@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-25T13:29:59 EDT" name="Default suite" finished-at="2023-04-25T13:45:09 EDT" duration-ms="909867">
+    <groups>
+    </groups>
+    <test started-at="2023-04-25T13:29:59 EDT" name="Default test" finished-at="2023-04-25T13:45:09 EDT" duration-ms="909867">
+      <class name="Diabetes">
+        <test-method is-config="true" signature="setUpBrowser(java.lang.String)[pri:0, instance:Diabetes@6c80d78a]" started-at="2023-04-25T13:29:59 EDT" name="setUpBrowser" finished-at="2023-04-25T13:30:07 EDT" duration-ms="7692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method signature="Diabetes_test()[pri:0, instance:Diabetes@6c80d78a]" started-at="2023-04-25T13:30:07 EDT" name="Diabetes_test" finished-at="2023-04-25T13:45:08 EDT" duration-ms="901304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Diabetes_test -->
+        <test-method is-config="true" signature="browserTearDown()[pri:0, instance:Diabetes@6c80d78a]" started-at="2023-04-25T13:45:08 EDT" name="browserTearDown" finished-at="2023-04-25T13:45:09 EDT" duration-ms="836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserTearDown -->
+      </class> <!-- Diabetes -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
